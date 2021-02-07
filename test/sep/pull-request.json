@@ -1,0 +1,10 @@
+{
+  "overrides": {
+    "collaborators": [
+      "githubers-00", 
+      "githubers-01"
+    ],
+    "flag^": 65521
+  },
+  "inherits": [ "initial" ]
+}

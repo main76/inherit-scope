@@ -1,0 +1,8 @@
+{
+  "overrides": {
+    "collaborators++": [ "but", "you" ],
+    "...magic": {
+      "fun": true
+    }
+  }
+}

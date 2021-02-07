@@ -1,0 +1,15 @@
+{
+  "default": {
+    "author": "main76",
+    "collaborators": [ "nobody" ],
+    "flag": 0,
+    "magic": {
+      "happy": true
+    }
+  },
+  "scopes": [
+    ["initial"],
+    ["main"],
+    ["pr", "pull-request.json"]
+  ]
+}

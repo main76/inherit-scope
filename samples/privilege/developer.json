@@ -1,0 +1,7 @@
+{
+  "overrides": {
+    "role": "developer",
+    "accessLevel+": 1,
+    "supported++": ["update"]
+  }
+}

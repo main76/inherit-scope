@@ -1,0 +1,20 @@
+{
+  "name": "inherit-scope",
+  "version": "1.0.0",
+  "description": "inheritable json",
+  "main": "src/entry.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "json",
+    "yaml",
+    "configuration",
+    "inherit"
+  ],
+  "author": "master76",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.0.0"
+  }
+}

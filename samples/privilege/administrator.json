@@ -1,0 +1,8 @@
+{
+  "overrides": {
+    "role": "adminstrator",
+    "accessLevel+": 1,
+    "supported++": ["insert","delete"]
+  },
+  "inherits": ["developer"]
+}
