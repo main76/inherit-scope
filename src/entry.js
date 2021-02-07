@@ -44,7 +44,11 @@ class Entry {
   }
 
   get default() {
-    return this.#default;
+    return { ...this.#default };
+  }
+
+  get scopes() {
+    return Object.keys(this.#scopes);
   }
 
   /**
@@ -92,16 +96,17 @@ class Entry {
  * @returns {Entry<dType>}
  */
 function createEntry(aruguments, inputType = InputType.JSON_FILE, customLoaderWrapper = null) {
-  const loaderWrapper = inputType == InputType.CUSTOM 
+  const loaderWrapper = inputType == InputType.CUSTOM
     ? customLoaderWrapper : InputLoaders[inputType];
   if (loaderWrapper == null) {
     throw new Error('loader is null');
   }
-  
+
   return new Entry(...loaderWrapper(aruguments))
 }
 
 module.exports = {
   InputType,
-  createEntry
+  createEntry,
+  Entry
 };

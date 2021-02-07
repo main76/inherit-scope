@@ -158,7 +158,7 @@ function object_loaderWrapper(object) {
   };
   return [{
     [DEFAULT_SCOPE_NAME]: object[DEFAULT_SCOPE_NAME],
-    [SCOPES_PROP_NAME]: object[SCOPES_PROP_NAME]
+    [SCOPES_PROP_NAME]: object[SCOPES_PROP_NAME] || []
   }, object_loader];
 }
 
