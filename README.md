@@ -5,7 +5,7 @@ Inheritable configurations with very simple design and usage.
 
 ## Install
 ```
-npm i 
+npm i https://github.com/Master76/inherit-scope
 ```
 
 ### Dependency
